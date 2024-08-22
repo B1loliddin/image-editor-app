@@ -36,7 +36,7 @@ Image editor app have been created with some basic functionality of photo editin
 
 ## Videos
 
-[Video on YouTube](https://youtu.be/CDTkN01vKhM)
+[Video on YouTube](https://youtu.be/GWzdXhSA0_w)
 
 ## Installation
 
