@@ -63,11 +63,11 @@ abstract class ImageEditViewModel extends State<ImageEditScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Add New Text'),
+          title: const Text('Add New Text'),
           content: TextField(
             controller: dialogTextController,
             maxLines: 5,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               filled: true,
               hintText: 'Write...',
               border: UnderlineInputBorder(
@@ -80,7 +80,7 @@ abstract class ImageEditViewModel extends State<ImageEditScreen> {
             DefaultButton(
               color: Colors.white,
               onPressed: _navigateToImageEditScreen,
-              child: Text(
+              child: const Text(
                 'Back',
                 style: TextStyle(color: Colors.black),
               ),
@@ -88,7 +88,7 @@ abstract class ImageEditViewModel extends State<ImageEditScreen> {
             DefaultButton(
               color: Colors.green,
               onPressed: _addNewText,
-              child: Text(
+              child: const Text(
                 'Add Text',
                 style: TextStyle(color: Colors.white),
               ),

@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: IconButton(
           onPressed: getImage,
-          icon: Icon(Icons.upload_file),
+          icon: const Icon(Icons.upload_file),
         ),
       ),
     );

@@ -53,7 +53,7 @@ class _ImageEditScreenState extends ImageEditViewModel {
               ),
               IconButton(
                 onPressed: boldText,
-                icon: Icon(Icons.format_bold),
+                icon: const Icon(Icons.format_bold),
               ),
               IconButtonChangeText(
                 onPressed: italicText,
@@ -68,49 +68,49 @@ class _ImageEditScreenState extends ImageEditViewModel {
                 onTap: () => changeTextColor(Colors.red),
                 backgroundColor: Colors.red,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'White',
                 onTap: () => changeTextColor(Colors.white),
                 backgroundColor: Colors.white,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Blue',
                 onTap: () => changeTextColor(Colors.blue),
                 backgroundColor: Colors.blue,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Black',
                 onTap: () => changeTextColor(Colors.black),
                 backgroundColor: Colors.black,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Yellow',
                 onTap: () => changeTextColor(Colors.yellow),
                 backgroundColor: Colors.yellow,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Green',
                 onTap: () => changeTextColor(Colors.green),
                 backgroundColor: Colors.green,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Orange',
                 onTap: () => changeTextColor(Colors.orange),
                 backgroundColor: Colors.orange,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
               TooltipChangeText(
                 message: 'Pink',
                 onTap: () => changeTextColor(Colors.pink),
                 backgroundColor: Colors.pink,
               ),
-              SizedBox(width: 5),
+              const SizedBox(width: 5),
             ],
           ),
         ),
@@ -164,7 +164,7 @@ class _ImageEditScreenState extends ImageEditViewModel {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: addNewDialog,
-        child: Icon(Icons.edit),
+        child: const Icon(Icons.edit),
       ),
     );
   }

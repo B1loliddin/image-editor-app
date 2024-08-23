@@ -12,8 +12,8 @@ class ImageEditorApp extends StatelessWidget {
       title: 'Image Editor',
       theme: ThemeData.light(),
       routes: {
-        '/': (_) => HomeScreen(),
-        '/image_edit_screen': (_) => ImageEditScreen(),
+        '/': (_) => const HomeScreen(),
+        '/image_edit_screen': (_) => const ImageEditScreen(),
       },
       initialRoute: '/',
     );
